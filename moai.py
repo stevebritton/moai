@@ -165,8 +165,8 @@ for indication in data:
 
     content += '\n'
     content += '\n### ' + str(indication)
-    content += '\n| Drug | Company | Generic | HTTPS | Update frequency |'
-    content += '\n| ---- | ------- | ------- | ----- | ---------------- |'
+    content += '\n| Drug | Company | Generic | HTTPS   | Update frequency |'
+    content += '\n| ---- | ------- | ------- | :-----: | ---------------- |'
 
     for website in data[indication]:
 
